@@ -27,7 +27,7 @@ export default function App() {
   const gameOverHandler = (guessNumber) => {
     setNumGuess(guessNumber);
   };
-
+ 
   const restartHandler = () => {
     setNumGuess(0);
     setuserNum();
@@ -78,5 +78,9 @@ const styles = StyleSheet.create({
   },
   screen: {
     flex: 1,
+    backgroundColor: 'black'
   },
+  content: {
+    alignItems: 'center'
+  }
 });
